@@ -1,24 +1,29 @@
 //* Objects
 
+const myCar{
+  make: ford,
+
+}
+
 let car: {
   make: string
   model: string
   year: number
 }
 
-/*
-//? A function that prints info about a car to stdout
-// function printCar(car: {
-//     make: string
-//     model: string
-//     year: number
-// }) {
-//     console.log(`${car.make} ${car.model} (${car.year})`)
-// }
 
-// printCar(car)
+? A function that prints info about a car to stdout
+function printCar(car: {
+    make: string
+    model: string
+    year: number
+}) {
+    console.log(`${car.make} ${car.model} (${car.year})`)
+}
 
-/*
+printCar(car)
+
+
 //* Optional properties
 //? Insert into function printCar
 // let str = `${car.make} ${car.model} (${car.year})`
